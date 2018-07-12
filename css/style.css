@@ -1,17 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 
-/* This
-is
-a comment! */
-
-/* CSS Syntax:
-selector {
-  property: value;
-  property: value;
-}
-*/
-
 p {
   font-size: 1em;
   line-height: 1.5em;
@@ -30,23 +19,17 @@ figcaption {
   text-shadow: 0 2px 3px #000;
 }
 
-/* ID selector (apply to one unique element per page) */
-
-#logo { /* select elements with id="logo" */
+#logo {
 
 }
 
-/* Descendent Selector */
-
-#logo h1 { /* selects <h1> if inside the id="logo" */
+#logo h1 {
   font-family: 'Clicker Script', cursive;
 }
 
 #logo h2 {
   font-family: 'Elsie Swash Caps', cursive;
 }
-
-/* Psuedo Selector */
 
 #details a:link, #details a:visited {
   color: black;
